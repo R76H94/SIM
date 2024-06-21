@@ -1,0 +1,5 @@
+# settings.py
+WINDOW_WIDTH = 800
+WINDOW_HEIGHT = 600
+FPS = 60
+BACKGROUND_COLOR = (0, 0, 0)
