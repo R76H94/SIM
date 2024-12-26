@@ -32,8 +32,8 @@
 
 1. リポジトリをクローンします。
    ```bash
-   git clone https://github.com/your-repo/run-escape-game.git
-   cd run-escape-game
+   git clone https://github.com/R76H94/SIM.git
+   cd SIM
    ```
 
 2. 必要なライブラリをインストールします。
@@ -46,17 +46,12 @@
    export OPENAI_API_KEY=your_api_key_here
    ```
 
-4. 画像保存用ディレクトリを作成します。
-   ```bash
-   mkdir -p ./images
-   ```
-
 ---
 
 ## 実行方法
 以下のコマンドでゲームを開始します。
 ```bash
-python run_escape_game.py
+python thief_vs_police_game_final.py
 ```
 
 ---
@@ -90,10 +85,11 @@ python run_escape_game.py
 
 ```
 .
-├── run_escape_game.py    # メインゲームスクリプト
+├── thief_vs_police_game_final.py    # メインゲームスクリプト
 ├── requirements.txt      # 必要ライブラリのリスト
 ├── images/               # 生成された画像を保存するディレクトリ
 ├── README.md             # この説明書
+├── thief_vs_police_game.py    # 初期のゲームスクリプト（使用しない）
 ```
 
 ---
@@ -114,21 +110,9 @@ python run_escape_game.py
 
 ---
 
-## ライセンス
-このプロジェクトはMITライセンスの下で公開されています。詳細は `LICENSE` ファイルを参照してください。
-
----
-
 ## 今後の課題
 - スコア機能の追加
 - 敵キャラクターのバリエーションを増加
 - マルチプレイヤーモードの導入
 
 ---
-
-## 開発者
-- 名前: [Your Name]
-- メール: [your_email@example.com]
-- GitHub: [https://github.com/your-github]
-
-ご質問や提案があれば、ぜひご連絡ください！
