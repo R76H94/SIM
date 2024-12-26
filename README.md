@@ -1,5 +1,3 @@
-# スマートインフォメディアシステム特論での最終課題
-
 # Run & Escape: The Infinite Maze Game
 
 ## 概要
