@@ -1,5 +1,7 @@
 # Run & Escape: The Infinite Maze Game
 
+### スマートインフォメディアシステム特論での最終課題
+
 ## 概要
 `Run & Escape: The Infinite Maze Game` は、プレイヤーが敵から逃げるスリリングな体験を提供するゲームです。このゲームは、PythonとPygameを使って開発されており、AIを活用したコンテンツ生成機能を組み込んでいます。
 
